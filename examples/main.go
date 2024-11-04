@@ -36,7 +36,7 @@ var sum int32
 func myFunc(i interface{}) {
 	n := i.(int32)
 	atomic.AddInt32(&sum, n)
-	fmt.Printf("run with %d\n", n)
+	fmt.Printf("run with11 %d\n", n)
 }
 
 func demoFunc() {
